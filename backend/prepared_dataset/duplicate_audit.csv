@@ -1,0 +1,3 @@
+sha256,image_path,category,split,group_size,cross_split_duplicate
+058e7538fa53b2bd8b87500ff47721c84ec442dc964d9de21bb271a8651138a8,C:\Users\Sahana Arumugam\Downloads\medsegment-ai\data\BUSI\benign\benign (433).png,benign,validation,2,False
+058e7538fa53b2bd8b87500ff47721c84ec442dc964d9de21bb271a8651138a8,C:\Users\Sahana Arumugam\Downloads\medsegment-ai\data\BUSI\malignant\malignant (145).png,malignant,validation,2,False

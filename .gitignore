@@ -1,0 +1,103 @@
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Datasets
+data/
+datasets/
+*.zip
+
+# Model weights
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.safetensors
+
+# Generated outputs
+outputs/
+experiments/
+runs/
+artifacts/
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+.pytest_cache/
+.ipynb_checkpoints/
+
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Frontend
+node_modules/
+dist/
+.vite/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Dataset and model checkpoints
+data/
+datasets/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.safetensors
+
+# Medical images and generated experiment artifacts
+backend/experiment_artifacts/
+backend/reviewed_annotations/
+backend/test_outputs/
+backend/evaluation_examples/
+backend/evaluation_examples_v2/
+backend/failure_diagnostics/
+backend/localization_diagnostics/
+backend/box_coordinate_diagnostics/visual_examples/
+backend/segmentation_evaluation/visual_examples/
+backend/segmentation_comparison_v2_v3/visual_examples/
+backend/prepared_dataset/perceptual_review/
+backend/failure_detector_cv/near_duplicate_contact_sheet.jpg
+backend/external_evaluation_v1/
+public/evaluation/
+
+# Temporary and backup files
+*.bak
+*.prelabel.bak
+*.log
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# MedSAM nested repository - handle separately
+MedSAM/

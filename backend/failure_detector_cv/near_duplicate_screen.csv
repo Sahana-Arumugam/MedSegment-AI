@@ -1,0 +1,4 @@
+file_a,split_a,file_b,split_b,hash_distance
+benign (139).png,test,benign (157).png,train,5
+benign (197).png,validation,benign (81).png,train,5
+benign (235).png,train,benign (294).png,test,4
